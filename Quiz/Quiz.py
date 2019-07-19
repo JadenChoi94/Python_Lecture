@@ -1,10 +1,14 @@
 # 1
-year=int(input('연도를 입력하세요: '))
-if year % 4 == 0 and year % 400 == 0:
-    print('윤년입니다.')
+year = int(input('연도를 입력하세요: '))
+if year % 4 == 0:
+    if year % 400 == 0:
+        print('윤년입니다.')
+    elif year % 100 == 0:
+        print("윤년이 아닙니다.")
+    else:
+        print("윤년입니다.")
 else:
     print('윤년이 아닙니다.')
-
 # 2
 hour, minute = map(int, input('시, 분을 입력하세요: ').split())
 if hour == 0:
@@ -27,7 +31,24 @@ for a in range(1, 333):
     for b in range(a+1, 500):
         c = 1000-a-b
         if a**2 + b**2 == c**2:
-            print(a, b, c)
+            print(a, b, c, a+b+c)
+'''
+# a + b + c = 1000 인 피타고라스 수
+# (단, a < b < c 이고 a + b > c)
+outerBreak = False
+for a in range(1, 333):
+    if outerBreak:
+        break
+    for b in range(a+1, 500):
+        c = 1000 - a - b
+        if c < b:
+            continue
+        if a**2 + b**2 == c**2:
+            print(a, b, c, a+b+c)
+            print(a**2, b**2, c**2)
+            outerBreak = True
+            break;
+'''
 
 # 반복문
 # 1
