@@ -1,0 +1,8 @@
+#모듈: 미리 작성된 힘수 코드를 모아 놓은 파이썬 파일
+#import keyword
+'''
+import math
+print(math.pow(3, 8))
+print(math.sqrt(64))    #제곱근 함수
+print(math.gcd(72, 24)) #최대공약수
+'''
