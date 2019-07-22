@@ -1,5 +1,4 @@
 words = input().split()
-
 count_the = 0
 for word in words:
     if word.strip(',.-') =='the':

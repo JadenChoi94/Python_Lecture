@@ -6,25 +6,18 @@
 
 x = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
 x.setdefault('e')
-x
 x.setdefault('f', 500)
-x
 x.update(a=90)
-x
 y = {1: 'one', 2: 'two'}
 y.update({1: 'ONE', 3: 'THREE'})
-y
 y.update([[2, 'TWO'], [4, 'FOUR']])
-y
 y.update(zip([1, 2], ['one', 'two']))
-y
 
 # etdefault는 키-값 쌍 추가만 할 수 있고, 이미 들어있는 키의 값은 수정할 수 없습니다.
 # 하지만 update는 키-값 쌍 추가와 값 수정이 모두 가능합니다. 다음과 같이 setdefault로 이미 들어있는
 # 키 'a'를 90으로 저장해도 'a'의 값은 바뀌지 않습니다.
 x = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
 x.setdefault('a', 90)
-x
 
 # 딕셔너리에서 키-값 쌍 삭제하기
 x = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
@@ -39,7 +32,6 @@ x.popitem()
 # 딕셔너리의 모든 키-값 쌍을 삭제하기
 x = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
 x.clear()
-x
 
 # 딕셔너리에서 키의 값을 가져오기
 x = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
@@ -55,11 +47,9 @@ x.values()
 # 리스트와 튜플로 딕셔너리 만들기
 keys = ['a', 'b', 'c', 'd']
 x = dict.fromkeys(keys)
-x
 
 # ict.fromkeys(키리스트, 값)처럼 키 리스트와 값을 지정하면 해당 값이 키의 값으로 저장됩니다.
 y = dict.fromkeys(keys, 100)
-y
 
 x = {'a': 0, 'b': 0, 'c': 0, 'd': 0}
 x['z']    # 키 'z'는 없음
@@ -69,12 +59,10 @@ y = defaultdict(int)   # int로 기본값 생성
 y['z']
 y['a']
 y = defaultdict(int, {'a':0})
-y
 int()
 z = defaultdict(lambda: 'python') # 익명함수:lamba
 z['a']
 z[0]
-z
 
 def return_python():
     return 'python'
@@ -83,7 +71,6 @@ return_python()
 y=defaultdict(return_python)
 y['a']
 y[0]
-y
 
 # 키만 가져오기!
 for key in x.keys():
@@ -108,7 +95,6 @@ for i in x:
 # 다음과 같이 딕셔너리 안에 키와 값, for 반복문을 지정하면 됩니다.
 keys = ['a', 'b', 'c', 'd']
 x = {key: value for key, value in dict.fromkeys(keys).items()}
-x
 
 {key: 0 for key in dict.fromkeys(['a', 'b', 'c', 'd']).keys()} # 키만 가져옴
 {value: 0 for value in {'a': 10, 'b': 20, 'c': 30, 'd': 40}.values()}  # 값을 키로 사용
@@ -123,7 +109,6 @@ for key, value in x.items():
 print(x)
 
 x = {key: value for key, value in x.items() if value != 20}
-x
 
 # 25.4 딕셔너리 안에서 딕셔너리 사용하기
 terrestrial_planet = {
