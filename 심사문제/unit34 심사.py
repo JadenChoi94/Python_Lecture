@@ -1,5 +1,4 @@
 class Annie:
-
     def __init__(self, health, mana, ability_power):
         self.health = health
         self.mana = mana

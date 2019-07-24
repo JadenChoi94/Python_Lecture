@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75ceef13-07a9-41e5-a1d8-3f051ae0b699" name="Default Changelist" comment="" />
+    <list default="true" id="75ceef13-07a9-41e5-a1d8-3f051ae0b699" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Python_Lecture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Lecture.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/심사문제/unit34 심사.py" beforeDir="false" afterPath="$PROJECT_DIR$/심사문제/unit34 심사.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Selfstudy/HR_data_analysis.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/심사문제/unit33 심사.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/심사문제/unit34 심사.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="7" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -39,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Unit10/sample.py" />
         <option value="$PROJECT_DIR$/unit8 심사.py" />
         <option value="$PROJECT_DIR$/unit9 심사.py" />
         <option value="$PROJECT_DIR$/../python_dojang-master/12-5.py" />
@@ -90,6 +102,7 @@
         <option value="$PROJECT_DIR$/심사문제/unit25 심사.py" />
         <option value="$PROJECT_DIR$/심사문제/unit26 심사.py" />
         <option value="$PROJECT_DIR$/심사문제/unit30 심사.py" />
+        <option value="$PROJECT_DIR$/심사문제/unit34 심사.py" />
       </list>
     </option>
   </component>
@@ -107,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,22 +135,13 @@
             <path>
               <item name="Python_Lecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Quiz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_Lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Selfstudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_Lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Lecture" type="462c0819:PsiDirectoryNode" />
               <item name="심사문제" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,9 +277,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11892178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11883408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,7 +292,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32842582" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32842582" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17030568" side_tool="true" weight="0.4382786" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.82969433" visible="true" weight="0.37041157" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.82969433" visible="true" weight="0.3704918" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -326,20 +329,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day1/While.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day1/FizzBuzz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample.py" />
     <entry file="file://$PROJECT_DIR$/심사문제/unit12 심사.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -536,13 +525,7 @@
     <entry file="file://$PROJECT_DIR$/Quiz/Quiz.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Quiz/최준혁.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Quiz/최준혁.py" />
     <entry file="file://$PROJECT_DIR$/Day4/Note.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -557,65 +540,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/심사문제/unit32 심사.py" />
+    <entry file="file://$PROJECT_DIR$/심사문제/unit31 심사.py" />
+    <entry file="file://$PROJECT_DIR$/심사문제/unit30 심사.py" />
+    <entry file="file://$PROJECT_DIR$/심사문제/unit29 심사.py" />
+    <entry file="file://$PROJECT_DIR$/심사문제/unit28 심사.py" />
+    <entry file="file://$PROJECT_DIR$/심사문제/unit25 심사.py" />
+    <entry file="file://$PROJECT_DIR$/심사문제/unit26 심사.py" />
+    <entry file="file://$PROJECT_DIR$/심사문제/unit27 심사.py" />
+    <entry file="file://$PROJECT_DIR$/Selfstudy/HR_data_analysis.py" />
     <entry file="file://$PROJECT_DIR$/심사문제/unit33 심사.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_town_road.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/심사문제/unit32 심사.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/심사문제/unit31 심사.py">
+    <entry file="file://$PROJECT_DIR$/심사문제/unit34 심사.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/심사문제/unit30 심사.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/심사문제/unit29 심사.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/심사문제/unit28 심사.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/심사문제/unit25 심사.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/심사문제/unit26 심사.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/심사문제/unit27 심사.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Selfstudy/HR_data_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret selection-end-line="7" selection-end-column="67" />
         </state>
       </provider>
     </entry>
