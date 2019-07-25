@@ -5,7 +5,7 @@ for i in range(999, 99, -1):
         m = i * k
         if m <= M:
             break
-        elif str(m) == str(m)[::-1]:
+        elif str(m) == str(m)[::-1]: #앞에서 뒤에서 읽었을때 같으면
             M = m
 print(M) # 906609
 
