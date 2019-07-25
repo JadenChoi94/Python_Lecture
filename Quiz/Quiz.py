@@ -55,7 +55,7 @@ for a in range(1, 333):
 Case = int(input())
 for i in range(Case):
     A, B = list(map(int, input().split()))
-    print('Case #{}: {} + {} = {}'.format(i+1,A, B, A + B))
+    print('Case #{}: {} + {} = {}'.format(i+1, A, B, A + B))
 
 # 2
 y = int(input('5이상 9이하의 홀수만 입력하세요 :'))
@@ -109,7 +109,20 @@ foo = int(input("숫자를 입력하세요: "))
 b = 0
 c = 0
 for a in range(foo+1):
-    b = b + a * a #제곱의합
-    c = c + a #합만 우선 계산
-c = c * c #합의제곱
+    b = b + a * a # 제곱의합
+    c = c + a # 합만 우선 계산
+c = c * c # 합의제곱
 print(c - b)
+
+'''
+n = int(input('자연수 입력: '))
+sumOfSquare = 0
+sum = 0
+for i in range(1, n+1):
+    sum += i
+    sumOfSquare += i ** 2
+squareOfSum = sum ** 2
+print('합의 제곱 =', squareOfSum)
+print('제곱의 합 =', sumOfSquare)
+print('차이 =', squareOfSum - sumOfSquare)
+'''
