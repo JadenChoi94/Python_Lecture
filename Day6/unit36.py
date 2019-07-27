@@ -78,8 +78,6 @@ class Student(Person):
         self.school = '파이썬 코딩 도장'
 
 
-
-
 # 메서드 오버라이딩 사용하기
 # class Person:
 #     def greeting(self):
